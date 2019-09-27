@@ -28,7 +28,7 @@ frame.pack(expand=YES)
 #ajouter un bouton 
 
 btn_ajou = Button(frame, text="Hi stop Hacking", font=(
-    "Courrier", 25), bg="white", fg="#41B77F",command=open_graven_channel)
+    "Courrier", 25), bg="white", fg="#41B77F",command=open_channel)
     #afficher Button
 btn_ajou.pack(pady=25,fill=X)
 #afficher la fenetre
