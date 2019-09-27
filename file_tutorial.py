@@ -1,0 +1,5 @@
+file = open("student.txt","w+")
+file.write("Saidou Dev\n")
+file.write("Alpha Dev backend\n")
+file.write("Oumar Mecanique\n")
+file.close()

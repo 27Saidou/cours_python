@@ -1,8 +1,8 @@
 from tkinter import *
 import webbrowser
 
-def open_graven_channel():
-    open_graven_channel.open_new("https://volkeno-tank.com")
+def open_channel():
+    open_channel.open_new("https://volkeno-tank.com")
 
 window = Tk()
 
