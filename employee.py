@@ -6,7 +6,7 @@ class Employee:
 
 
     def presentation(self):
-         print( self.nom,"je suis dev front")   
+         print("je suis dev front{}".format(self.nom))
 
 
 
