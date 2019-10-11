@@ -7,7 +7,7 @@ res="oui"
 prix={700,800}
 if age<=12:
     print("vous etes mineur{}".format(prix))
-elif age>800:
+elif age>14:
     print("vous etes majeur{}".format(prix))   
 elif res=="oui":
   print("Vous devez augmentez {}".format(age+200))
