@@ -1,16 +1,21 @@
+user="alpha2"
 def decorat_test_example(func):
-    def hello():
-        print("je suis dev python")
-        func()
+    def fonction_modifie():
+        if user =="alpha":
+            return func()
+        else:
+            print("Vous devez etre connecté!")
+    return fonction_modifie
 
-    return hello
+
 
 @decorat_test_example
-def bonjour_hello():
-    print("je suis un dev mobile android")
+def profile():
+    print("membre!")
+
+profile()    
 
 
-bonjour_hello()
 
 
-  
+
