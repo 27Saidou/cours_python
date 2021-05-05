@@ -5,7 +5,7 @@ class Personne():
         self.prenom=prenom
         self.profession=profession
 
-       
+    
 
 class Etudiant(Personne):
     def __init__(self,code,nom,prenom,profession):
