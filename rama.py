@@ -7,4 +7,19 @@ else:
     max=n2
 if n3>max:
     max=n3
-print(" le Maximum est",max)        
+print(" le Maximum est",max) 
+
+user="John2"
+def check_User(fonction):
+    def fonction_modifie():
+        if user=="John":
+            return fonction()
+        else:
+            print("Vous devez etre connecté!")
+    return fonction_modifie  
+    
+@check_User
+def profile():
+    print("Profile Membre")
+
+profile()
