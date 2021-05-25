@@ -6,10 +6,10 @@ import pandas as pd
 # india_df.to_sql('sample_table',engine,if_exists='replace')
 # india_df.read_slq('sample_table',engine,index_columns='respondents')
 utilisateur={
-            "first":["alpha ","nafiou","saidou"],
-            "last":["diallo ","barry","massoud"],
-            "email":["alpha@yahoo.com","nafiou@gmail.com",
-            "massoud@twitter.com"]}
+        "first":["alpha ","nafiou","saidou"],
+        "last":["diallo ","barry","massoud"],
+        "email":["alpha@yahoo.com","nafiou@gmail.com",
+        "massoud@twitter.com"]}
 df = pd.DataFrame(utilisateur)
 df.rename(columns={"first": 'first_name',
         'last': 'last_name', 'email': 'em_ail'}, inplace=True)
