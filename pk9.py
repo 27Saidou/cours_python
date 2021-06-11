@@ -13,7 +13,7 @@ data.loc[7, 'Duration'] = 45
 
 for x in data.index:
     if data.loc[x, "Duration"] > 120:
-       data.drop(x, inplace=True)
+        data.drop(x, inplace=True)
 print(data.to_string())
 # cette methode permet de savoir les doublons dans un fichier
 print(data.duplicated())
