@@ -1,0 +1,7 @@
+public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i =0;i<=10;i++){
+            System.out.println("La valeur de +i+ est egal="+i);
+        }
+    }
+}
