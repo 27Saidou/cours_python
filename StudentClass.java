@@ -1,3 +1,4 @@
+package cours_python;
 public class StudentClass {
     int rollNum;
     String studentName;

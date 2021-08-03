@@ -1,3 +1,4 @@
+package cours_python;
 public class SwitchCaseExample {
     public static void main(String[] args) {
         String jour="Mardi";

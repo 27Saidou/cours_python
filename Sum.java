@@ -1,3 +1,4 @@
+package cours_python;
 public abstract class Sum {
     public abstract int sumOfTwo(int n1, int n2);
 

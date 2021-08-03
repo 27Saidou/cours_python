@@ -1,3 +1,4 @@
+package cours_python;
 public class Employee {
     String name;
     int id;

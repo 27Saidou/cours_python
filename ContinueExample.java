@@ -1,3 +1,4 @@
+package cours_python;
 public class ContinueExample {
     public static void main(String[] args) {
         int j = 0;

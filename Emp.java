@@ -1,3 +1,5 @@
+
+package cours_python;
 import java.util.Scanner;
 public class Emp {
     public static void main(String[] args) {

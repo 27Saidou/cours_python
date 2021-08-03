@@ -1,3 +1,4 @@
+package cours_python;
 public class EncapsulationDemo {
     private int ssn;
     private String empName;

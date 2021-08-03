@@ -1,5 +1,5 @@
+package cours_python;
 import java.util.Scanner;
-
 class Algorithm_Pgcd {
 
     public static int PGCD(int a, int b) {

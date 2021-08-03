@@ -1,3 +1,4 @@
+package cours_python;
 public class WhileLoopExample {
     public static void main(String[] args) {
         int arr[] = { 2, 11, 45, 9 };

@@ -1,3 +1,4 @@
+package cours_python;
 public class Addresse {
     int streetNum;
     String city;

@@ -1,3 +1,4 @@
+package cours_python;
 public class LogicalOperatorDemo {
     public static void main(String[] args) {
         boolean b1 = true;

@@ -1,3 +1,4 @@
+package cours_python;
 public class JavaExample {
     static int i=10;
     static String s="Book Java";

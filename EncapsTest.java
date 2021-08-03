@@ -1,3 +1,4 @@
+package cours_python;
 public class EncapsTest {
     public static void main(String[] args) {
         EncapsulationDemo obj = new EncapsulationDemo();

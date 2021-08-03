@@ -1,3 +1,4 @@
+package cours_python;
 public class FirstJavaProgram {
     String myVar="je suis dev mobile";
     public void myMethod(){

@@ -1,3 +1,4 @@
+package cours_python;
 public class IfElseExample {
     public static void main(String[] args) {
         int num = 120;
