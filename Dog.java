@@ -1,4 +1,4 @@
-package cours_python;
+
 public class Dog  extends Animal{
     public void AnimalSound() {
         System.out.println("Woof");

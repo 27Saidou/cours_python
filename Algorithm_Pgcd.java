@@ -1,4 +1,4 @@
-package cours_python;
+
 import java.util.Scanner;
 class Algorithm_Pgcd {
 

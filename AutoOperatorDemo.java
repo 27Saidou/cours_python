@@ -1,4 +1,4 @@
-package cours_python;
+
 public class AutoOperatorDemo {
     public static void main(String[] args) {
         int num=100;

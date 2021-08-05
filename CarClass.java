@@ -1,4 +1,4 @@
-package cours_python;
+
 public class CarClass {
     String carName;
     int carId;

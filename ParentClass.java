@@ -1,4 +1,4 @@
-package cours_python;
+
 public class ParentClass {
     // constructeur class parent
     ParentClass(){

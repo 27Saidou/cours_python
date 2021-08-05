@@ -1,7 +1,7 @@
 /**
  * Example_Pgcd
  */
-package cours_python;
+
 public class Example_Pgcd {
 
     public static void main(String[] args) {

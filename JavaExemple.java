@@ -1,4 +1,4 @@
-package cours_python;
+
 public class JavaExemple  extends ParentClass{
     JavaExemple(){
         System.out.println("Constructeur de la class enfant");

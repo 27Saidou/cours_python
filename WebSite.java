@@ -1,4 +1,4 @@
-package cours_python;
+
 public class WebSite {
     String webName;
     int webAge;

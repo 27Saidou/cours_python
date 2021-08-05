@@ -1,4 +1,4 @@
-package cours_python;
+
 public class DemoApp  extends Sum{
     public int sumOfTwo(int num1, int num2) {
         return num1 + num2;

@@ -1,4 +1,4 @@
-package cours_python;
+
 import java.util.regex.*;
 
 public class Java_Regex_Eample {
