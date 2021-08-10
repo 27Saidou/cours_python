@@ -1,0 +1,35 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class PrototypeDemoApps {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter Employee Id: ");
+        int eid = Integer.parseInt(br.readLine());
+        System.out.print("\n");
+
+        System.out.print("Entrer le nom de l'employee: ");
+        String ename = br.readLine();
+        System.out.print("\n");
+
+        System.out.print("Entrer Employee Designation: ");
+        String edesignation = br.readLine();
+        System.out.print("\n");
+
+        System.out.print("Entrer Employee Address: ");
+        String eaddress = br.readLine();
+        System.out.print("\n");
+
+        System.out.print("Entrer Employee Salaire: ");
+        double esalary = Double.parseDouble(br.readLine());
+        System.out.print("\n");
+
+        EmployeeRecord e1 = new EmployeeRecord(eid, ename, edesignation, esalary, eaddress);
+
+        e1.showRecord();
+        System.out.println("\n");
+        EmployeeRecord e2 = (EmployeeRecord) e1.getClone();
+        e2.showRecord();
+    }
+}
