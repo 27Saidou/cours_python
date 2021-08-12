@@ -11,12 +11,12 @@ public class Cashier implements Employe {
 
     @Override
     public void add(Employe employee) {
-        // this is leaf node so this method is not applicable to this class.
+        
     }
 
     @Override
     public Employe getChild(int i) {
-        // this is leaf node so this method is not applicable to this class.
+
         return null;
     }
 
@@ -47,6 +47,6 @@ public class Cashier implements Employe {
 
     @Override
     public void remove(Employe employee) {
-        // this is leaf node so this method is not applicable to this class.
+    
     }
 }
