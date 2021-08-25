@@ -3,8 +3,9 @@ import java.io.ObjectOutputStream;
 import java.io.IOException;
 public class EnvoyeClass {
     public static void main(String[] args) {
-        Etudiant etudiant=new Etudiant(101, 25, "Rama", "Bah", 6);
+    
         try {
+            Etudiant etudiant = new Etudiant(101, 25, "Rama", "Bah", 6);
             FileOutputStream fos=new FileOutputStream("etudiant.txt");
             ObjectOutputStream oos=new ObjectOutputStream(fos);
             oos.writeObject(etudiant);
