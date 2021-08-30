@@ -24,5 +24,5 @@ entry1.place(x=140, y=20)
 entry2 = Entry(root, bd=5)
 entry2.place(x=140, y=70)
 Button(root, command=login, text="login", height=3,
-       width=13, bd=6).place(x=100, y=120)
+        width=13, bd=6).place(x=100, y=120)
 root.mainloop()
