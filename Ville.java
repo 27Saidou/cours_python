@@ -1,3 +1,4 @@
+// nom de class Ville
 public class Ville {
     /**attribut de la Ville */
     private String nomVille;
