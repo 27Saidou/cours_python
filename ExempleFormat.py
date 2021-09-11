@@ -2,7 +2,7 @@ name,age,sal="alpha diallo",27,1000.35
 # premier facon d'afficher les variables
 print(name,age,sal)
 # second format d'afficher les variables
-print("Name:%s Age:%dSal:%g" % (name,age,sal))
+print("Name:%s Age:%d Sal:%g" % (name,age,sal))
 # troisieme format d'afficher les variables
 print("Name est=",name)
 print("Age est ",age)
