@@ -11,5 +11,7 @@ print("Sal est",sal)
 print("Name{} Age:{} Salaire:{}".format(name,age,sal))
 # cinquieme format  d'afficher les variables
 print("Name{0} Age:{1} Salaire:{2}".format(name,age,sal))
+# septieme facon de formatage de variable
 print(f"{name} {age} {sal}")
+# 8 facon de formatage de variable
 print(f"Name={name} Age={age} salaire={sal}".format(name,age,sal))
