@@ -5,7 +5,6 @@ public abstract class Fruit {
         System.out.println("creation d'un fruits");
     }
 
-    public void affiche() {
-        System.out.println("c'est un fruit");
-    }
+    public abstract void affiche();
+    public abstract void afficherPoids();
 }
