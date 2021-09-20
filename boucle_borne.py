@@ -4,3 +4,7 @@ while S <600:
     S =S * 1.04
     n =n + 1
 print(n)    
+
+name="mamadou"
+print(name.upper())
+
