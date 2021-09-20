@@ -1,5 +1,5 @@
 public class basevehicle {
-    public static void speed() {
-        System.out.println("The Speed Of Vehicle Class");
+    public static void type_de_profile() {
+        System.out.println("engineer java");
     }
 }
