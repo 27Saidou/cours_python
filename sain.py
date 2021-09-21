@@ -4,6 +4,7 @@ def demander_nom():
         reponse_nom=input("Quel est votre nom")
     return reponse_nom
 
+# Il y a 33 mots-clés dans Python 3.7.
 
 def demander_age():
     age_int=0
