@@ -1,6 +1,6 @@
 public class Dynamic_Binding extends BaseVehiculeClass {
     public void speed() {
-        System.out.println("The Speed of Dynamic Binding Class");
+        System.out.println("Le polymorphisme dynamiques en java");
     }
     public static void main(String[] args) {
         BaseVehiculeClass obj=new BaseVehiculeClass();
