@@ -17,7 +17,6 @@ def demander_age():
 
 # demander nom
 nom=demander_nom()
-
 # demander age
 age=demander_age()  
     # afficher le resultat
