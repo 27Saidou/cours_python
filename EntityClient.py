@@ -1,4 +1,8 @@
 class Client():
+    """
+    Variable de class exemple en python
+    """
+    
     compte=0
     def __init__(self,numero,nom,prenom,tel,address):
         self._numero = numero
