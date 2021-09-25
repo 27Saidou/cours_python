@@ -29,7 +29,7 @@ class Etudiant(Client):
             \nPrenom:{2}\
             \nTel:{3}\
             \nAddress:{4}\
-            \nFiliere:{5}".format(self.numero, self.nom, self.prenom, self.tel, self.address, self.filiere)
+            \nFiliere:{5}".format(self.number, self.nom, self.prenom, self.tel, self.address, self.filiere)
 
 
 e1 = Etudiant(2, 'Diallo', 'Massoud', '77 123 34 56',
