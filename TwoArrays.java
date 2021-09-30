@@ -6,6 +6,6 @@ public class TwoArrays {
             { 4, 1, 7 }, 
             { 1, 2, 3, 5, 6, 8 }
         };
-        System.out.println(b[2][5]);
+        System.out.println(b[2][0]);
     }
 }
