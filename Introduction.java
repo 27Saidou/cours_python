@@ -45,7 +45,9 @@ public class Introduction {
         b = temp;
 
     }
-
+    /**
+     * methode permet de montrer comment utiliser le polymorphisme
+     */
     public static void salutations() {
         System.out.println("Hi,There");
     }
