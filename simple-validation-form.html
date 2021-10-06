@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
     <form action="traitement.php" id="myForm" method="POST">
         <label for="username">Votre nom d'utilisateur</label>
-        <input type="text" name="username" id="username"><br/>
-        <span id="error"></span><br/>
+        <input type="text" name="username" id="username"><br />
+        <span id="error"></span><br />
+        <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <small id="error"></small>
+        </div>
         <button type="submit">S'enregistrer</button>
     </form>
     <script>
         let myForm = document.getElementById("myForm");
         myForm.addEventListener("submit", function (e) {
             let username = document.querySelector("#username");
-            let myRegex= /^[a-zA-Z-\s]+$/;
+            const email = document.querySelector('#email');
+            let myRegex = /^[a-zA-Z-\s]+$/;
+            let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
             if (username.value.trim() == "") {
                 let myError = document.getElementById("error");
                 myError.innerHTML = "le champs username est requis.";
                 myError.style.color = "red";
                 e.preventDefault();
-            }else if(myRegex.test(username.value)==false){
+            } else if (myRegex.test(username.value) == false) {
                 let myError = document.getElementById("error");
                 myError.innerHTML = "le champ doit comporter des lettres,des tirets uniquements";
                 myError.style.color = "red";
                 e.preventDefault();
+            }else if(email.value.match(validRegex)){
+                alert("Valid email address!");
+                document.myForm.email.focus();
+                return true;
+            }else{
+                alert("Invalid email address!");
+                document.myForm.email.focus();
+                return false;
             }
-        })
+        
+        });
     </script>
 </body>
 
