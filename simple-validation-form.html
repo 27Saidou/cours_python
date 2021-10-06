@@ -37,16 +37,16 @@
                 myError.innerHTML = "le champ doit comporter des lettres,des tirets uniquements";
                 myError.style.color = "red";
                 e.preventDefault();
-            }else if(email.value.match(validRegex)){
+            } else if (email.value.match(validRegex)) {
                 alert("Valid email address!");
                 document.myForm.email.focus();
                 return true;
-            }else{
+            } else {
                 alert("Invalid email address!");
                 document.myForm.email.focus();
                 return false;
             }
-        
+
         });
     </script>
 </body>
