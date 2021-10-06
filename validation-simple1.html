@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validation</title>
+    <script type="text/javascript">
+        function validateForm() {
+            var myForm = document.forms["myForm"];
+            let username= myForm["username"].value;
+            let password= myForm["password"].value;
+            if (username == "") {
+                alert("Entrez Votre Username please");
+                myForm["username"].focus();
+                return false;
+            }
+            if (password == "") {
+                alert("Please enter you Password");
+                myForm["password"].focus(); 
+                return false;
+            }
+            alert("Donnees envoyer aux server....")
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Enter your Username and Password</h2>
+    <div style="border:1px solid #ddd; padding: 5px;">
+
+        <form name="myForm" method="GET" action="process-action.html" onsubmit="return validateForm()">
+            Username: <input type="text" name="username" />
+            <br><br>
+            Password: <input type="password" name="password" />
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
