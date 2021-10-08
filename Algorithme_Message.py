@@ -1,0 +1,5 @@
+first_name=input("Votre nom s'il vous plait")
+last_name=input("Votre Prenom s'il vous plait")
+filiere=input("Votre Filiere s'il vous plait'")
+print("Bonjour ",first_name,last_name)
+print("Bienvenue dans la filiere",filiere)
