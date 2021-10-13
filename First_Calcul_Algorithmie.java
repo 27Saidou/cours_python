@@ -2,6 +2,7 @@ import java.util.*;
 
 public class First_Calcul_Algorithmie{
     public static void main(String[] args) {
+        int result=0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Entrez le premier nombre ");
         int firstNumber=sc.nextInt();
@@ -10,7 +11,7 @@ public class First_Calcul_Algorithmie{
         System.out.println("Entrez le type d'operateur");
         sc.nextLine();
         char operateur=sc.nextLine().charAt(0);
-        int result=0;
+
         switch (operateur) {
             case '+':
                 result=firstNumber+secondNumber;
