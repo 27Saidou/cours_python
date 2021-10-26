@@ -12,7 +12,7 @@ public class TableauxMulti {
         }
         
     }
-    
+    // cette methode permet de dire Bonjour a des personnes
     static void direBonjour(String firstName, String lastName) {
         System.out.printf("Bonjour le developeur mobile %s %s\n", firstName, lastName);
     }
