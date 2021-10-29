@@ -15,12 +15,15 @@ public class TestLivre {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n;
+        // afficher un message pour dire de saisir un nombre entier positif
         System.out.println("Entrer un nombre entier positif");
-        n = sc.nextInt();
+        // recolter la valeur au clavier
+        int n = sc.nextInt();
         if (premier(n) == true) {
+            // afficher un resultat si le nombre est premier 
             System.out.println(n + " est un nombre entier positif");
         } else {
+            // afficher si le nbre n'est pas un entier premier positif
             System.out.println(n + " n'est pas un nombre entier positif");
             sc.close();
         }
