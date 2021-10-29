@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class TestLivre {
     public static boolean premier(int n) {
         int i, cpt = 0;
