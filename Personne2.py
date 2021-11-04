@@ -1,4 +1,4 @@
-class Personne1():
+class Personne2():
     nbPers = 0
 
     def __init__(self):
@@ -7,7 +7,7 @@ class Personne1():
         self.sexe = ""
         self.age = 0
         self.adresse = ""
-        Personne1.nbPers += 1
+        Personne2.nbPers += 1
 
     def setNom(self, nom):
         self.nom = nom
