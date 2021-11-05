@@ -44,10 +44,10 @@ class Medecin(PersonnelSoignant):
     def getSpecialiste(self):
         return self.specialiste
 
-    def setDatePriseServices(self, datePriseService):
+    def setDatePriseService(self, datePriseService):
         self.datePriseService = datePriseService
 
-    def getDatePriseServices(self):
+    def getDatePriseService(self):
         return self.datePriseService
 
     def setPoste(self, poste):
