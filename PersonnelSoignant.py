@@ -9,7 +9,7 @@ class PersonnelSoignant:
         self.nbEnfant=nbEnfant
         PersonnelSoignant.countPers +=1
     
-    def saisiePersonne(self):
+    def saisiePersonnel(self):
         self.mat=input("Entrer le numero de matricule du personnel:")
         self.nom=input("Entrer le nom de la personnel:")
         self.prenom=input("Entrer le prenom : ")
@@ -57,8 +57,8 @@ class PersonnelSoignant:
     def setNbEnfant(self,nbEnfant):
         self.nbEnfant=nbEnfant
 
-    def insertPersonnel(self):
-        F = open("DossierPersonnelSoignant.txt", "w")
+    def insererPersonnelSoignant(self):
+        F = open("DossierPersonnelSoignant.txt", "a")
 
         persSoignant = self.getMat()+"\t"+self.getNom()+"\t"
         +self.getPrenom()+"\t"+self.getAdresse()+"\t" + \
@@ -66,7 +66,7 @@ class PersonnelSoignant:
         F.write(persSoignant)
         F.close()
 
-    def affichepersonnel(self):
+    def affichageFichierPersonnel(self):
         F=open("DossierPersonnelSoignant.txt",'r')
         contenu=F.read()
         print(contenu)
