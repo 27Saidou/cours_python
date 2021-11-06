@@ -48,19 +48,19 @@ def menu(self):
                             p.insererAgrege()
                         else:
                             if (choix == 6):
-                                affichageFichierPersonnel()
+                                self.affichageFichierPersonnel()
                             else:
                                 if (choix == 7):
-                                    affichageFichierInfirmier()
+                                    self.affichageFichierInfirmier()
                                 else:
                                     if (choix == 8):
-                                        affichageFichierMedecin()
+                                        self.affichageFichierMedecin()
                                     else:
                                         if(choix == 9):
-                                            affichageFichierProfesseur()
+                                            self.affichageFichierProfesseur()
                                         else:
                                             if(choix == 10):
-                                                affichageFichierAgrege()
+                                                self.affichageFichierAgrege()
                                             else:
                                                 if(choix == 0):
                                                     print("Au revoir et a la prochaine\n")
