@@ -48,22 +48,24 @@ def menu(self):
                             p.insererAgrege()
                         else:
                             if (choix == 6):
-                                self.affichageFichierPersonnel()
+                                affichageFichierPersonnel()
                             else:
                                 if (choix == 7):
-                                    self.affichageFichierInfirmier()
+                                    affichageFichierInfirmier()
                                 else:
                                     if (choix == 8):
-                                        self.affichageFichierMedecin()
+                                        affichageFichierMedecin()
                                     else:
                                         if(choix == 9):
-                                            self.affichageFichierProfesseur()
+                                            affichageFichierProfesseur()
                                         else:
                                             if(choix == 10):
-                                                self.affichageFichierAgrege()
+                                                affichageFichierAgrege()
                                             else:
                                                 if(choix == 0):
                                                     print("Au revoir et a la prochaine\n")
                                                     return 0
                                                 else:
                                                     print("choix Indisponible ou inexistant ")
+
+
