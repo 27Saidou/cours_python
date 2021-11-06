@@ -1,0 +1,2 @@
+from traitement import *
+menu()
