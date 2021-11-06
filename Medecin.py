@@ -72,7 +72,7 @@ class Medecin(PersonnelSoignant):
         self.retenue = self.prime/3
 
     def setPrime(self):
-        self.prime = self.nbEnfant*(salaireBase/10)
+        self.prime = self.nbEnfant*(self.salaireBase/10)
 
     def insererMedecin(self):
         F = open("DossierMedecinSoignant.txt", 'a')
