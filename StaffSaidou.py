@@ -22,7 +22,7 @@ class StaffSaidou:
 
 
 # create object
-jessa = StaffSaidou('Jessa', 12)
+jessa = StaffSaidou('Massoud', 12)
 # call instance method
 jessa.show()
 
