@@ -18,3 +18,9 @@ class TimeSheet:
 emp = Employee("Alfa", 800)
 timesheet = TimeSheet("Nafiou", 50)
 print("la salaire est de: ", emp * timesheet)
+
+# def calcul(a,b,c):
+#     res=a+b+c
+#     return res
+
+# print(calcul(12,34,45))
