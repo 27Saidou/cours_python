@@ -24,4 +24,6 @@ def calc_vals(debut, fin):
     for x in range(debut, fin + 1):
         liste_vals.append(polynome(x))
     return liste_vals
-print(calc_vals())
+
+
+print(calc_vals(-5, 5))
