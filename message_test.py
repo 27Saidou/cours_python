@@ -27,3 +27,14 @@ def calc_vals(debut, fin):
 
 
 print(calc_vals(-5, 5))
+
+
+def calc_factorielle(nb):
+    if nb == 1:
+        return 1
+    else:
+        return nb * calc_factorielle(nb - 1)
+
+
+# prog principal
+print(calc_factorielle(4))
