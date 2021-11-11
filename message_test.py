@@ -43,7 +43,6 @@ print(calc_factorielle(4))
 def hello(prenom):
     print(f"Bonjour {prenom}")
 
-
 # Programme principal.
 x = 10
 hello("Alfa")
