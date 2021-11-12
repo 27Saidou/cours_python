@@ -18,7 +18,6 @@ public class Exo_Premier {
             message = "N est premier\n";
         } else {
             message = "N n'est pas premier";
-
         }
         System.out.println(message);
         sc.close();

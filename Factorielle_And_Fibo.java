@@ -15,9 +15,7 @@ public class Factorielle_And_Fibo {
         }
     }
     public static void main(String[] args) {
-        int res = factoriel(5);
-        int fibo = suiteFibo(500);
-        System.out.println(fibo);
-        System.out.println(res);
+        System.out.println(factoriel(5));
+        System.out.println(suiteFibo(5));
     }
 }
