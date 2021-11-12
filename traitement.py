@@ -5,7 +5,7 @@ from Professeur import *
 from Agrege import *
 
 
-def menu(self):
+def menu():
     while (1):
         print("\n\n\t\t\t 1 - Creer un personnel Soignant ")
         print("\n\n\t\t\t 2 - Creer un infirmier ")
@@ -48,19 +48,19 @@ def menu(self):
                             p.insererAgrege()
                         else:
                             if (choix == 6):
-                                affichageFichierPersonnel()
+                                p.affichageFichierPersonnel()
                             else:
                                 if (choix == 7):
-                                    affichageFichierInfirmier()
+                                    p.affichageFichierInfirmier()
                                 else:
                                     if (choix == 8):
-                                        affichageFichierMedecin()
+                                        p.affichageFichierMedecin()
                                     else:
                                         if(choix == 9):
-                                            affichageFichierProfesseur()
+                                            p.affichageFichierProfesseur()
                                         else:
                                             if(choix == 10):
-                                                affichageFichierAgrege()
+                                                p.affichageFichierAgrege()
                                             else:
                                                 if(choix == 0):
                                                     print("Au revoir et a la prochaine\n")
