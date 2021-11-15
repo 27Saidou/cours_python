@@ -1,5 +1,5 @@
 public class StaffPerson {
-    private final String name;
+    private String name;
     private String sex;
     public StaffPerson(String name, String sex) {
         this.name = name;
