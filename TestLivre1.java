@@ -24,6 +24,7 @@ public class TestLivre1 {
         } else {
             System.out.println(n + " n'est pas un nombre premier");
             sc.close();
+        
         }
     }
 }
