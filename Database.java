@@ -1,3 +1,4 @@
+
 class Database {
     private static Database dbObject;
 
