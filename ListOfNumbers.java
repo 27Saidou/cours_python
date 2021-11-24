@@ -4,13 +4,13 @@ public class ListOfNumbers {
     private int[] list = { 5, 6, 8, 9, 2 };
 
     public void writeList() {
-        PrintWriter out = null;
+        PrinteWriter out = null;
 
         try {
             System.out.println("Entering try statement");
 
             // creation new file OutputFile.txt
-            out = new PrintWriter(new FileWriter("OutputFile.txt"));
+            out = new PrinteWriter(new FileWriter("OutputFile.txt"));
 
             //
             for (int i = 0; i < 7; i++) {
