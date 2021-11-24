@@ -4,5 +4,6 @@ public class ApplicationChien {
         chien.name="Rambo";
         chien.display();
         chien.eat();
+        chien.bark();
     }
 }
