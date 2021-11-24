@@ -2,6 +2,7 @@ public class ChienExample extends Ani {
     // overriding the eat() method
     @Override
     public void eat() {
+        super.eat();
         System.out.println("je mange de la nourriture pour chien");
     }
     public void bark() {
