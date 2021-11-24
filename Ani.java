@@ -1,6 +1,6 @@
 public class Ani {
-    String name;
-    public void eat(){
+    protected String name;
+    protected void eat(){
         System.out.println("je peux manger");
     }
 }
