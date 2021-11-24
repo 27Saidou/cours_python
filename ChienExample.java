@@ -1,5 +1,4 @@
 public class ChienExample extends Ani {
-    // overriding the eat() method
     @Override
     public void eat() {
         super.eat();
