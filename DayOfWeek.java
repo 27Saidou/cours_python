@@ -1,9 +1,10 @@
 import java.util.Scanner;
+
 public class DayOfWeek {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Entrer un jour svp");
-        String dayOfWeek =sc.nextLine();
+        String dayOfWeek = sc.nextLine();
         switch (dayOfWeek) {
         case "Sunday":
             System.out.println("Dimanche");
@@ -26,7 +27,7 @@ public class DayOfWeek {
         case "Saturday":
             System.out.println("Nous sommes Samedis");
             break;
-            default:
+        default:
             System.out.println("Choisir un jour dans le weekends");
             break;
         }
