@@ -7,22 +7,24 @@ public class DayOfWeek {
         String dayOfWeek = sc.nextLine();
         switch (dayOfWeek) {
         case "Sunday":
-            System.out.println("Dimanche");
+            System.out.println("Nous sommes Dimanche");
             break;
         case "Monday":
-            System.out.println("Lundi");
+            System.out.println("Nous sommesLundi");
             break;
         case "Tuesday":
-            System.out.println("Mardi");
+            System.out.println("Nous sommes Mardi");
             break;
         case "Wednesday":
-            System.out.println("Mercredi");
+            System.out.println("Nous sommes Mercredi");
             break;
         case "Thursday":
             System.out.println("jeudi");
             break;
         case "Friday":
-            System.out.println("Vendredi");
+            System.out.println("Nous sommes Vendredi");
+            System.out.println("Nous sommes Vendredi");
+            System.out.println("Nous sommes Vendredi");
             break;
         case "Saturday":
             System.out.println("Nous sommes Samedis");
