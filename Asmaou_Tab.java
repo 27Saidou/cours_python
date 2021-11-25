@@ -38,5 +38,15 @@ public class Asmaou_Tab {
         // get the value
         String value2 = numbers.get(3);
         System.out.println("The key 3 maps to the value: " + value2);
+
+        HashMap<String, Integer> numbers3 = new HashMap<>();
+        numbers3.put("One", 1);
+        numbers3.put("Two", 2);
+        numbers3.put("Three", 3);
+        System.out.println("HashMap: " + numbers3);
+
+        // remove all mappings from HashMap
+        numbers3.clear();
+        System.out.println("HashMap after clear(): " + numbers3);
     }
 }
