@@ -1,4 +1,5 @@
 import java.io.*;
+import java.lang.*;
 public class ListOfNumbers {
     // create list entier
     private int[] list = { 5, 6, 8, 9, 2 };
