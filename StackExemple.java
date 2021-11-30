@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.*;
+
 
 public class StackExemple {
     // En Java, les piles sont une structure de données LIFO (Last In, First Out)

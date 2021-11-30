@@ -6,7 +6,7 @@ public class Operateur_Logique {
 
         // || operator
         System.out.println((5 < 3) || (8 > 5)); // true
-        System.out.println((5 > 3) || (8 < 5)); // true
+        System.out.println(5 > 3 && 8< 5); // true
         System.out.println((5 < 3) || (8 < 5)); // false
 
         /* !=operator*/
