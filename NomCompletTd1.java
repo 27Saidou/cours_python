@@ -6,8 +6,9 @@ public class NomCompletTd1{
         String  firstname=sc.nextLine();
         System.out.println("Donner votre prenom");
         String lastname=sc.nextLine();
-        String nom_Comp=firstname + lastname;
-        System.out.println("Votre nom complet est :" + nom_Comp);
+        String nom_Comp= firstname + lastname;
+        System.out.println("Votre nom complet est \n" + nom_Comp);
+        sc.close();
         
         }
 }
