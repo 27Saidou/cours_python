@@ -15,11 +15,11 @@ int main()
     int b = 200;
     int result;
 
-    // calling a function to add the values.
+    // appelle function pour ajouter valeur 
     result = sum(a, b);
     cout << "Total valeur est de  :" << result << endl;
 
-    // calling a function again as follows.
+    // appelle function.
     result = sum(a);
     cout << "Total valeur est de  :" << result << endl;
 
