@@ -8,5 +8,12 @@ public class Rama_Input {
         System.out.println(name);
         sc.close();
 
+        boolean isSunUp=false;
+        if (isSunUp==true) {
+            System.out.println("days");
+        } else {
+            System.out.println("Night");
+        }
+
     }
 }
