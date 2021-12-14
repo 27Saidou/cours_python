@@ -29,7 +29,8 @@ class SoftwareEngineering:
 
     def __eq__(self, other):
         return self.name == other.name and self.age == other.age
-
+        
+    @staticmethod
     def entry_salary(age):
         if age < 25:
             return 5000
