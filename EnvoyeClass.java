@@ -14,7 +14,7 @@ public class EnvoyeClass {
             fos.close();
             System.out.println("Serialisez avec success");
         } catch (IOException e) {
-        System.out.println(" erruer dans le code "+e.getMessage());
+        System.out.println(" erreur dans le code "+e.getMessage());
         }
     }
 }
