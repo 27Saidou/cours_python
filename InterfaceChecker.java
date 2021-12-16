@@ -2,8 +2,18 @@ interface Runnable {
     int a=10;
     void run();
 }
-public class InterfaceChecker implements Runnable {
+
+interface DefaultInterface extends Runnable{
+    void sleep();
+}
+public class InterfaceChecker implements DefaultInterface {
     
+    @Override
+    public void sleep() {
+        System.out.println("Sleeping...");
+        
+    }
+
     @Override
     public void run() {
         System.out.println("Engineer java");
@@ -11,7 +21,8 @@ public class InterfaceChecker implements Runnable {
     }
 
     public static void main(String[] args) {
-        Runnable app=new InterfaceChecker();
+        DefaultInterface app=new InterfaceChecker();
         app.run();
+        app.sleep();
     }
 }
