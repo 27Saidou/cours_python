@@ -17,7 +17,7 @@ class Car(Vehicle):
         print(self.name, 'change gear to number', no)
 
 
-# Create object of Car
+# creation du premier object
 car = Car('BMW X1', 'Black', 35000)
 car.info()
 car.change_gear(5)
