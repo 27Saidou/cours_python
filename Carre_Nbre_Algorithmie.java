@@ -6,6 +6,7 @@ public class Carre_Nbre_Algorithmie {
         calcul = x * x;
         return calcul;
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
