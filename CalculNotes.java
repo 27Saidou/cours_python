@@ -1,8 +1,9 @@
 import java.util.*;
 
 public class CalculNotes {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
         int i;
         int notes[],moyenne;
         notes = new int[4];
